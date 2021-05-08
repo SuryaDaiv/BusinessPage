@@ -51,6 +51,37 @@ button {
     font-size: 40px;
 }
 
+.nav li{
+	background-color: #f3f1f1f5; /* Green */
+	border: none;
+	color: white;
+	margin: 1%;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.footer-nav li{
+	background-color: #f3f1f1f5; /* Green */
+	border: none;
+	color: white;
+	margin: 1%;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;	
+}
+
+.bounce-1 {
+        animation-name: bounce-1;
+        animation-timing-function: linear;
+    }
+    @keyframes bounce-1 {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-100px); }
+        100% { transform: translateY(0); }
+    }
 /* BG */
 
 #bg {
@@ -1037,7 +1068,18 @@ ul.contact-social li a i.google:hover{
 	border: none;
 	text-indent: 100%;
 	background: url(../images/move-to-top.png) no-repeat 0px 0px;
-}
-
+	
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+    .bounce-1{
+	animation-name: bounce-1;
+        animation-timing-function: linear;
+    }
+    @keyframes bounce-1 {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-100px); }
+        100% { transform: translateY(0); }
+    }
 
 
