@@ -9,7 +9,6 @@ html, body{
 }
 
 .logo{
-	border: 5px solid #555;
 	margin: 0%;
 	padding: 0%;
 }
@@ -139,7 +138,7 @@ nav li{
 	transform: translate3d(0,0,0);
 	/* Set your background with this */
 	/* https://pixabay.com/photos/city-view-panorama-city-view-407703/ */
-	background: #348cb2 url("images/bg2.jpg") bottom left;
+	background: #dae7ec url("images/bg2.jpg") bottom left;
 	background-repeat: repeat-x;
 	height: 100%;
 	left: 0;
@@ -199,6 +198,8 @@ nav li{
 /*------start-top-nav------*/
 .top-header{
 	display:none;
+	background-color: #f3f1f1b2;
+
 }
 /*------start-top-nav------*/
 .top-nav {
@@ -302,13 +303,13 @@ ul.nav-list li a:hover { color:#333333; border-bottom: 3px solid #000000; paddin
     background-color: #F6E4CC;
     display: block;
     height: 525px;
-    overflow: hidden;
+    overflow: auto;
     text-align: center;
 }
 .about_text {
     display: block;
     margin: 0 auto;
-    overflow: hidden;
+    overflow: visible;
     width: 80%;
 }
 .about_text img {
@@ -906,13 +907,18 @@ ul.popup_links.g_links {
 .mobile-display-on{display:none;}
 .mobile-display-off{display: block;}
 /*--contact--*/
+
 .contact{
+	
 	background:#e7e5d0;
 	padding:8em 0;
+	
 }
+
 .contact-form {
     width: 90%;
     margin: 0 auto;
+    
 }
 .contact-form input[type="text"] {
 	display: block;
@@ -962,7 +968,23 @@ ul.popup_links.g_links {
 	background: #FFC870;
 }
 .contact-left{
+	float: left;
 	text-align:center;
+	background:#e7e6d7e0;
+	display: block;
+	overflow: hidden;
+	height: 500px;
+	margin: 3% auto;
+	padding: 2%;
+}
+.contact-right{
+	/* float: right; */
+	background:#0f0f0fee;
+	display: block;
+	overflow: hidden;
+	height: 500px;
+	margin: 3% auto;
+	padding: 2%;
 }
 .contact-left h4 {
     color: #000;
@@ -1067,6 +1089,7 @@ ul.contact-social li a i.google {
 ul.contact-social li a i.google:hover{
 	background-position:-14px -215px;
 }
+
 /***--- Map ---***/
 #map-section{
     display: block;
